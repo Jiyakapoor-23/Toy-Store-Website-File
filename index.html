@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Store Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"> <img src="images/logo2.png" alt=""></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About Us</a>
+            <a href="#age">Age</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-heart" id="heart-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/s1.jpg" alt="">
+                <div class="content">
+                    <h3>Toy</h3>
+                    <span class="price">150/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/s2.jpg" alt="">
+                <div class="content">
+                    <h3>Teddy</h3>
+                    <span class="price">140/-</span>
+                    <span class="quantity">qty : 3</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/s3.jpg" alt="">
+                <div class="content">
+                    <h3>Teddy</h3>
+                    <span class="price">180/-</span>
+                    <span class="quantity">qty : 2</span>
+                </div>
+            </div>
+            <div class="total">total : 930/-</div>
+        
+        </div>
+
+        <form action="../Toy Store website/index.html" class="login-form" method="POST">
+            <h3>login</h3>
+            <input type="email" placeholder="your email" name="name" class="box">
+            <input type="password" placeholder="your password" name="password" class="box">
+            <p>forgot your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" placeholder="login now" class="btn">
+
+        </form>
+
+    </header>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h1> Welcome To<span> Our </span> Toy Store </h1>
+            <p>"Where Fun Comes to Play!"</p>
+        </div>
+    </section>
+    
+<section class="products" id="products">
+         <h1 class="heading"> Our <span>Products</span> </h1>
+         <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                    <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c1.jpg" alt="">
+                    <h3> Rabbit</h3>
+                    <div class="price"> 170/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c2.jpg" alt="">
+                    <h3> Teddy</h3>
+                    <div class="price"> 140/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c3.jpg" alt="">
+                    <h3> Toy</h3>
+                    <div class="price"> 150/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c4.jpg" alt="">
+                    <h3> Teddy Toy</h3>
+                    <div class="price"> 120/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+            </div>
+         </div>
+
+         <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c5.jpg" alt="">
+                    <h3> Elephant Soft Toy</h3>
+                    <div class="price"> 170/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c6.jpg" alt="">
+                    <h3> Teddy Bear Toy</h3>
+                    <div class="price"> 140/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c7.jpg" alt="">
+                    <h3> Dolls</h3>
+                    <div class="price"> 150/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c8.jpg" alt="">
+                    <h3> Doraemon Toy</h3>
+                    <div class="price"> 110/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c9.jpg" alt="">
+                    <h3> Toy</h3>
+                    <div class="price"> 100/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+            </div>
+         </div>
+
+         <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c10.jpg" alt="">
+                    <h3> Soft Toy</h3>
+                    <div class="price"> 170/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c11.jpg" alt="">
+                    <h3> Teddy </h3>
+                    <div class="price"> 140/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c12.jpg" alt="">
+                    <h3> Teddy Bear </h3>
+                    <div class="price"> 150/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <div class="fas fa-heart" id="heart-btn"></div> </div>
+                    <img src="images/c13.jpg" alt="">
+                    <h3> Teddy's</h3>
+                    <div class="price"> 110/-</div>
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <div class="buy"> Buy Now</div>
+                </div>
+            </div>
+         </div>
+</section>
+
+<section class="about" id="about">
+    <h1 class="heading"> About Us</h1>
+    <div class="container">
+        <div class="para">
+            <h3>VD Toys</h3>
+            <p>Welcome to VD Toys, where joy and imagination come to life! 
+            Established with a passion for bringing smiles to children's faces, 
+            VD Toys has been a trusted name in the toy industry. Our physical store 
+            has been a beloved destination for families, and now, we are excited to 
+            extend our reach to the online world.</p>
+            <br>
+            <p>At VD Toys, we believe in the magic of play. 
+            Our carefully curated selection of toys is designed to inspire creativity, 
+            learning, and endless fun. From timeless classics to the latest trends, 
+            we offer a wide variety of high-quality toys that cater to children of all ages and interests.</p>
+            <br>
+            <p>Our commitment to excellence is reflected in our dedication to customer satisfaction. 
+            We strive to provide a seamless shopping experience, with detailed product descriptions, 
+            customer reviews, and a user-friendly interface. Our team is always ready to assist you 
+            with any questions or concerns, ensuring that you find the perfect toys for your little ones.</p>
+            <br>
+            <p>At VD Toys, we are more than just a toy store; we are a part of the community. 
+            We regularly host events and workshops to engage with our young customers and their families, 
+            fostering a sense of belonging and creating memorable experiences. Our loyalty program rewards 
+            our valued customers with exclusive discounts and early access to new arrivals, making every 
+            shopping trip even more enjoyable.
+            <br>
+            <p> We also believe in giving back. Through various charitable initiatives, VD Toys supports
+            local schools, children's hospitals, and community centers. By choosing to shop with us, you are 
+            also contributing to these meaningful causes, helping to make a difference in the lives of children in our community.</p>
+            <br>
+            <p>Innovation is at the heart of what we do. We constantly update our inventory to include the 
+            latest and most exciting toys on the market. Our team of experts carefully selects each item, ensuring
+            it meets our high standards of quality, safety, and fun. We also offer personalized recommendations and
+            gift-wrapping services, making it easy for you to find the perfect gift for any occasion.</p>
+            <br> 
+            <p>Our online platform is designed to provide the same exceptional service and product range as our
+                 physical store. With easy navigation, secure payment options, and fast shipping, shopping at VD 
+                 Toys is convenient and hassle-free. We also offer a flexible return policy, so you can shop with 
+                 confidence knowing that your satisfaction is our priority.</p>
+            <br>
+        </div>
+    </div>
+       
+            <div class="swiper about-slider">
+               <div class="swiper-wrapper">
+                   <div class="swiper-slide box">
+                       <img src="images/a1.jpg" alt="">
+                   </div>
+   
+                   <div class="swiper-slide box">
+                       <img src="images/a2.jpg" alt="">
+                   </div>
+   
+                   <div class="swiper-slide box">
+                       <img src="images/a3.png" alt="">
+                   </div>
+   
+                   <div class="swiper-slide box">
+                       <img src="images/a4.png" alt="">
+                   </div>
+               </div>
+            </div>       
+</section>
+
+<section class="age" id="age">
+    <h1 class="heading"> Age</h1>
+    <div class="image">
+        <a href="./0-18 months/index.html"><img src="./images/0-18months.avif" alt=""></a>
+    </div>
+    <div class="image">
+        <a href="./18-36 months/index.html"><img src="./images/18-36months.avif" alt=""></a>
+    </div>
+    <div class="image">
+        <a href="./3-5 years/index.html"><img src="./images/3-5years.avif" alt=""></a>
+    </div>
+    <div class="image">
+        <a href="./5-7 years/index.html"><img src="./images/5-7years.avif" alt=""></a>
+    </div>
+</section>
+
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="images/logo2.png" alt="">
+            <p>Welcome to VD Toys, where joy and imagination come to life! 
+                Established with a passion for bringing smiles to children's faces, 
+                VD Toys has been a trusted name in the toy industry. Our physical store 
+                has been a beloved destination for families, and now, we are excited to 
+                extend our reach to the online world.</p>
+        </div>
+
+        <div class="col">
+            <h3>Links </h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="col">
+            <h3>Support</h3>
+            <p>My Account</p>
+            <p>Customer Care</p>
+            <p>Track Order</p>
+            <p>Cancel/Return Order</p>
+            <p>Sitemap</p>
+            <P>VOIP SMS</P>
+        </div>
+
+        <div class="col">
+            <h3>Contact</h3>
+           <ul>
+            <li>+1234 567 8900</li>
+            <li>toystore22@gmail.com</li>
+           </ul>
+        </div>
+
+    </div>
+    <hr>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
